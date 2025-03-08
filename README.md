@@ -55,7 +55,6 @@ V(version)英文版本的缩写
 ## 更新日志
 <details>
 <summary>点击展开</summary>
-</details>
 
 > V0.2.0.20250307_base
 > - 目前功能与存在问题 
@@ -110,3 +109,4 @@ V(version)英文版本的缩写
 >  - 3. 增加小游戏
 >
 >
+</details>
