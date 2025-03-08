@@ -55,6 +55,7 @@ V(version)英文版本的缩写
 ## 更新日志
 <details>
 <summary>点击展开</summary>
+</details>
 
 > V0.2.0.20250307_base
 > - 目前功能与存在问题 
