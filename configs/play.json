@@ -1,0 +1,311 @@
+{
+    "games": {
+        "on_hook": {
+            "requirements": {
+                "level": 0,
+                "mood": 0,
+                "hunger": 0,
+                "health": 0
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 60
+            },
+            "exertion": {
+                "mood": 6,
+                "hunger": 6
+            }
+        },
+
+        "guess_numbers": {
+            "requirements": {
+                "level": 1,
+                "mood": 0,
+                "hunger": 50,
+                "health": 60
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 120
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": -5
+            }
+        },
+
+        "blowing_bubbles": {
+            "config": {
+                "time": 60,
+                "number": 30
+            },
+            "requirements": {
+                "level": 1,
+                "mood": 0,
+                "hunger": 50,
+                "health": 60
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 120
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": -5
+            }
+        }
+},
+
+    "jobs": {
+        "waiter": {
+            "requirements": {
+                "level": 12,
+                "mood": 20,
+                "hunger": 60,
+                "health": 60
+            },
+            "rewards": {
+                "money": 10,
+                "experience": 100
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 10
+            }
+        }
+    },
+
+    "subjects": {
+        "chinese": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "math": {
+            "requirements": {
+                "level": 2,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "chinese": 1
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "english": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "physics": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "math": 3
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 400
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "chemistry": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "math": 2
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "biology": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "chinese": 2,
+                "math": 1
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "history": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "chinese": 1
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "geography": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "math": 1
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "politics": {
+            "requirements": {
+                "level": 0,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "history": 1
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "music": {
+            "requirements": {
+                "level": 2,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "art": {
+            "requirements": {
+                "level": 2,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "sport": {
+            "requirements": {
+                "level": 2,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        },
+
+        "computer": {
+            "requirements": {
+                "level": 2,
+                "mood": 60,
+                "hunger": 40,
+                "health": 60,
+                "math": 1,
+                "chinese": 1,
+                "english": 1
+            },
+            "rewards": {
+                "money": 0,
+                "experience": 200
+            },
+            "exertion": {
+                "mood": 10,
+                "hunger": 20
+            }
+        }
+    }
+}

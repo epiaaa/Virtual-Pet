@@ -1,0 +1,20 @@
+{
+    "name": "epi_pet",
+    "gender": "male",
+    "level": 0,
+    "experience": 0,
+    "gain_total_experience": 0,
+    "mood": 18,
+    "hunger": 22,
+    "health": 100,
+    "position": [
+        559,
+        181
+    ],
+    "skills": [],
+    "equipments": [],
+    "inventory": [],
+    "equipment_slots": [],
+    "inventory_slots": [],
+    "skill_slots": []
+}

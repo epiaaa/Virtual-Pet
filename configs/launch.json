@@ -1,0 +1,21 @@
+{
+    "infos_path": "configs/infos.json",
+    "play_path": "configs/play.json",
+    "launch_path": "configs/launch.json",
+
+    "type": {
+        "打工": "",
+        "学习": "",
+        "玩游戏": "ui.game_menu.show_menu"
+    },
+
+    "picture_path": {
+        "猜数字": "assets/pet/play/game/guess_numbers.jpg",
+        "吹泡泡": "assets/pet/play/game/blowing_bubbles.jpg"
+    },
+
+    "game_function": {
+        "猜数字": "",
+        "吹泡泡": "blowing_bubbles.create_bubbles"
+    }
+}
