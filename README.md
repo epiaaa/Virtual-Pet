@@ -53,59 +53,71 @@ V(version)英文版本的缩写
 ## 目录结构描述
 ```
 VirtualPet
-├─ README.md
-├─ UI
-│	├─ __init__.py
-│	├─ components
-│	│	├─ __init__.py
-│	│	├─ game_menu_window.py
-│	│	├─ menu_window.py
-│	│	├─ pet_window.py
-│	│	├─ play_menu_window.py
-│	│	└─ status_window.py
-│	├─ framework
-│	│	├─ __init__.py
-│	│	├─ bubble_menu.py
-│	│	└─ select_menu.py
-│	└─ main_window.py
-├─ assets
-│	├─ bubble_cloud.png
-│	├─ colored_bubble.png
-│	├─ pet
-│	│	├─ bird.gif
-│	│	├─ drag.gif
-│	│	├─ play
-│	│	├─ sit_down.gif
-│	│	├─ stand.gif
-│	│	└─ test.jpeg
-│	├─ 升级曲线.png
-│	└─ 透明气泡.png
-├─ configs
-│	├─ base.yml
-│	├─ conditions.json
-│	├─ infos.json
-│	├─ launch.json
-│	└─ play.json
-├─ core
-│	├─ pet
-│	│	├─ __init__.py
-│	│	└─ model.py
-│	├─ play
-│	│	├─ __init__.py
-│	│	└─ on_hook.py
-│	├─ study.py
-│	├─ supermarket
-│	├─ test.py
-│	├─ upgrade.py
-│	└─ work.py
-├─ dataset
 ├─ main.py
-├─ method
 ├─ presenters.py
+├─ README.md
 ├─ requirements.txt
-└─ tools
- 	├─ __init__.py
- 	└─ dataset.py
+├─ UI
+│  ├─ chat_window.py
+│  ├─ main_window.py
+│  ├─ settings_window.py
+│  ├─ __init__.py
+│  ├─ games
+│  │  ├─ blowing_bubbles.py
+│  │  └─ __init__.py
+│  ├─ framework
+│  │  ├─ bubble_menu.py
+│  │  ├─ select_menu.py
+│  │  └─ __init__.py
+│  └─ components
+│     ├─ game_menu_window.py
+│     ├─ menu_window.py
+│     ├─ pet_window.py
+│     ├─ play_menu_window.py
+│     ├─ status_window.py
+│     └─ __init__.py
+├─ tools
+│  ├─ dataset.py
+│  └─ __init__.py
+├─ core
+│  ├─ study.py
+│  ├─ upgrade.py
+│  ├─ work.py
+│  ├─ __init__.py
+│  ├─ play
+│  │  ├─ on_hook.py
+│  │  └─ __init__.py
+│  ├─ pet
+│  │  ├─ model.py
+│  │  └─ __init__.py
+│  └─ AI
+│     ├─ dk_api.py
+│     └─ __init__.py
+├─ configs
+│  ├─ base.yml
+│  ├─ conditions.json
+│  ├─ config.json
+│  ├─ infos.json
+│  ├─ launch.json
+│  └─ play.json
+└─ assets
+   ├─ bubble_cloud.png
+   ├─ chat_background.png
+   ├─ chat_dialogbox.png
+   ├─ chat_dialogbox2.png
+   ├─ 升级曲线.png
+   ├─ pet
+   │  ├─ bird.gif
+   │  ├─ drag.gif
+   │  ├─ sit_down.gif
+   │  ├─ stand.gif
+   │  └─ play
+   │     └─ game
+   │        ├─ blowing_bubbles.jpg
+   │        └─ guess_numbers.jpg
+   └─ game
+      ├─ colored_bubble.png
+      └─ 透明气泡.png
 ```
 
 ## 更新日志
